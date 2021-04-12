@@ -1,0 +1,618 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background-color: black;
+}
+
+.inline{
+    display: inline-flex;
+    width: 100%;
+}
+
+.inline ol li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 0px 0px 15px white;
+}
+
+.inline ul{
+    display: inline-flex;
+    margin-left: auto;
+}
+
+.inline ul li{
+    margin: 0 20px;
+}
+
+.inline ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 0px 0px 15px white;
+}
+
+/*TOP*/
+
+.banner{
+    background: url('/img/background.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.center{
+    width: 90%;
+    margin: auto;
+}
+
+.inlineBanner{
+    display: inline-flex;
+    width: 100%;
+}
+
+.inlineBanner ol li{
+    list-style: none;
+    color: red;
+    font-size: 50px;
+}
+
+.inlineBanner ul{
+    list-style: none;
+    margin-left: auto;
+}
+
+.inlineBanner ul li a{
+    color: white;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+}
+
+.text input{
+    border-radius: 10px;
+    border-bottom: 4px solid gold ;
+    width: 25%;
+    padding: 20px;
+}
+
+
+.text ul{
+    display: inline-flex;
+}
+
+.text ul li{
+    list-style: none;
+}
+
+.text ul li a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border-bottom: 4px solid gold;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*BANNER*/
+
+.hr{
+    background-color: gray;
+    border: 10px solid gray;
+    margin: 0;
+}
+
+.house{
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+}
+
+.house img{
+    width: 50%;
+    margin-top: 85px;
+}
+
+.house img:hover{
+    font-size: 50px;
+    transition: 1s;
+}
+
+.cards h1{
+    text-shadow: 0px 0px 10px white;
+    transition: 1s;
+}
+
+.cards h1:hover{
+    text-shadow: 0px 0px 20px red;
+    color:red;
+    transition: 1s;
+}
+
+.cards{
+    color: white;
+    margin: auto;
+    margin-top: 170px;
+    font-size: 20px;
+}
+
+/*HOUSE OF CARDS*/
+
+.karatel{
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+}
+
+.karatel img{
+    margin-top: 85px;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.eboy{
+    color: white;
+    margin: auto;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.eboy h1{
+    text-shadow: 0px 0px 10px white;
+    transition: 1s;
+}
+
+.eboy h1:hover{
+    text-shadow: 0px 0px 20px red;
+    color: red;
+    transition: 1s;
+}
+
+/*KARATEL*/
+
+.yes{
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+}
+
+.no{
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.no h1{
+    margin-left: 50px;
+    text-shadow: 0px 0px 10px white;
+    transition: 1s;
+}
+
+.no h1:hover{
+    text-shadow: 0px 0px 20px red;
+    color:red;
+    transition: 1s;
+}
+
+.no ul{
+    list-style: none;
+}
+
+.no ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.no ul li{
+    background-color: gray;
+    border: 0px solid gray;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px 60px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px dimgray;
+}
+
+.no ul li:hover{
+    box-shadow: 0px 0px 20px white;
+}
+
+.no p{
+    font-size: 20px;
+}
+
+.no input{
+    margin:auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    border-bottom: 4px solid gold ;
+    width: 25%;
+    padding: 20px 44px;
+}
+
+.no ol{
+    display: inline-flex;
+}
+
+.no ol li{
+    list-style: none;
+}
+
+.no ol li a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border-bottom: 4px solid gold;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*MAIN*/
+
+.footerInline{
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+    color: white;
+}
+
+.stolbs{
+    margin: auto;
+}
+
+.stolbs ul{
+    margin-top: 50px;
+}
+
+.stolbs ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.fifa{
+    background-color: gray;
+    border: 10px solid gray;
+    margin: auto;
+    width: 85%;
+}
+
+.end{
+    background-color: black;
+    width: 100%;
+}
+
+.end h1{
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1100px){
+    .cards h1{
+        margin-top: -5%;
+    }
+}
+
+@media(max-width:950px){
+    .cards h1{
+        margin-top: -15%;
+    }
+
+    .eboy h1{
+        margin-top: -9%;
+    }
+}
+
+@media(max-width:900px){
+    .house{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .karatel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .eboy p{
+        margin-bottom: 10%;
+    }
+
+    .no ul li{
+        margin: 20px 60px;
+    }
+
+    .text ul li a{
+        font-size: 18px;
+    }
+
+    .no ol li a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:820px){
+    .house img{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+
+    .karatel img{
+        width: 70%;
+    }
+}
+
+@media(max-width:787px){
+    .stolbs ul li{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:747px){
+    .stolbs ul li{
+        margin-left: -10px;
+    }
+}
+
+@media(max-width:707px){
+    .stolbs ul li{
+        margin-left: -15px;
+    }
+
+    .eboy{
+        text-align: center;
+    }
+}
+
+@media(max-width:687px){
+    .stolbs ul li{
+        margin-left: -20px;
+    }
+}
+
+@media(max-width:667px){
+    .stolbs ul li{
+        margin-left: -30px;
+    }
+
+    .inlineBanner ol li{
+        font-size: 35px;
+        margin-left: -20%;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+
+    .text ul li a{
+        font-size: 15px;
+    }
+
+    .text input{
+        width: 25%;
+        padding: 15px 20px;
+    }
+
+    .no input{
+        padding: 15px 20px;
+    }
+
+    .no ol li a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:747px){
+    .stolbs ul li{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:586px){
+    .stolbs ul li{
+        margin-left: -40px;
+    }
+
+    .footerInline .stolbs:nth-child(1){
+        display: none;
+    }
+}
+
+@media(max-width:560px){
+    .end h1{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:500px){
+    .inline ol li a{
+        font-size: 20px;
+    }
+
+    .inline ul li a{
+        font-size: 20px;
+    }
+
+    .inlineBanner ul li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .cards{
+        text-align: center;
+    }
+
+    .no ul li{
+        margin: 20px 70px;
+        padding: 20px ;
+    }
+}
+
+@media(max-width:450px){
+    .karatel img{
+        width: 100%;
+        margin-bottom: -10px;
+    }
+
+    .eboy h1{
+        font-size: 30px;
+        margin-top: -20%;
+    }
+
+    .eboy p{
+        font-size: 18px;
+    }
+
+    .house img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .cards h1{
+        font-size: 30px;
+    }
+
+    .cards p{
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:400px){
+    .stolbs ul li{
+        margin-left: -50px;
+    }
+
+    .footerInline .stolbs:nth-child(2){
+        display: none;
+    }
+
+
+    .no input{
+        padding-right: 100px;
+    }
+
+    .no ol{
+        margin-top: 20px;
+        margin-left: -35px;
+    }
+
+    .text input{
+        padding-right: 100px;
+        margin-bottom: -100px;
+    }
+
+    .text ol{
+        margin-top: -20px;
+        padding-left: -40px;
+    }
+}
+
+@media(max-width:370px){
+    .no{
+        margin-left: -10%;
+    }
+
+    .no p{
+        width: 90%;
+        margin-left: 40px;
+    }
+
+    .end h1{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:359px){
+
+    .no p{
+        width: 90%;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:350px){
+
+    .no p{
+        width: 89%;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:320px){
+
+    .no p{
+        width: 88%;
+        margin-left: 40px;
+    }
+
+    .stolbs{
+        margin-left: 20px;
+    }
+}
